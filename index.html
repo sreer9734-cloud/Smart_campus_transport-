@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Bus Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚌 Smart Campus Bus Tracker</h1>
+</header>
+
+<div class="container">
+    <h2>Welcome</h2>
+    <p>Track your college bus in real time.</p>
+
+    <div class="card">
+        <h3>Bus No: 29</h3>
+        <p>Status: <span id="status">On the Way</span></p>
+        <p>ETA: <span id="eta">10 Minutes</span></p>
+
+        <button onclick="updateBus()">Refresh</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
